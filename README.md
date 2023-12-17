@@ -21,5 +21,6 @@ npm install -g json-server
 ```bash
 json-server --watch db.json
 ```
-4) **Открытие в браузере**
+4) **Открытие в браузере:**
+
 Откройте index.html через браузер.
