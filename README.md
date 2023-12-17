@@ -24,5 +24,8 @@ json-server --watch db.json
 4) **Открытие в браузере:**
 
 Откройте index.html через браузер.
+
+## Скриншоты
+### Скриншот ленты постов
 ![image](https://github.com/flopperq/ajax/assets/91046873/90fd85b8-83b7-4b6a-b0cd-fdbdf7a51c8b)
 
