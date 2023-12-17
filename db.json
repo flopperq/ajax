@@ -1,0 +1,45 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson"
+    },
+    {
+      "id": 4,
+      "name": "Alice Williams"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Brown"
+    },
+    {
+      "id": 6,
+      "name": "Eva Davis"
+    },
+    {
+      "id": 7,
+      "name": "Frank Miller"
+    },
+    {
+      "id": 8,
+      "name": "Grace Wilson"
+    },
+    {
+      "id": 9,
+      "name": "Harry Taylor"
+    },
+    {
+      "id": 10,
+      "name": "Ivy Martin"
+    }
+  ]
+}

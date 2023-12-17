@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Посты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Посты</h1>
+
+        <div id="formStatus"></div>
+        
+        <!-- Добавлено модальное окно -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <form id="postForm">
+                    <select id="selectUser" required></select>
+                    <input type="text" id="title" placeholder="Заголовок" required>
+                    <textarea id="body" placeholder="Текст поста" required></textarea>
+                    <button type="button" id="submitButton">Создать пост</button>
+                </form>
+            </div>
+        </div>        
+
+        <button type="button" id="createPostButton">Создать пост</button>
+
+        <!-- Список постов -->
+        <ul id="postList"></ul>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
